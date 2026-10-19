@@ -1,0 +1,18 @@
+{
+  "name": "yash-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "node scripts/build.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "test:seo": "node --test tests/seo.test.mjs",
+    "test:contact": "node --test tests/contact.test.mjs"
+  },
+  "dependencies": { "react": "^19.2.0", "react-dom": "^19.2.0" },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0", "@vitejs/plugin-react": "^5.0.0",
+    "tailwindcss": "^4.1.0", "vite": "^7.1.0"
+  }
+}
